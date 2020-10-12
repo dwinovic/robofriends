@@ -3,8 +3,7 @@ import Card from "./Card";
 
 const CardList = ({ robots }) => {
   return (
-    <div>
-      {" "}
+    <div> 
       {robots.map((user, i) => {
         return (
           <Card
@@ -14,7 +13,7 @@ const CardList = ({ robots }) => {
             email={robots[i].email}
           />
         );
-      })}{" "}
+      })}
     </div>
   );
 };
